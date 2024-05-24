@@ -7,6 +7,12 @@ function esNumeroEntero(numero) {
   // -1212 ---> true 
   // 121.212 ---> false 
   // Tu código:
+  if (Math.round(numero) === numero){
+    return true
+  }
+  else {
+    return false
+} 
 }
 
 module.exports = esNumeroEntero;
