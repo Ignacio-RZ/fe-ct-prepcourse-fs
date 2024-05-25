@@ -7,6 +7,8 @@ function elevarAlCubo(num) {
   // 3 ---> 27
   // 0 ---> 0
   // Tu código:
+  var elevar3= num * num * num
+  return elevar3
 }
 
 module.exports = elevarAlCubo;
